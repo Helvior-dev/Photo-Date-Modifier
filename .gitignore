@@ -1,7 +1,11 @@
 # Virtual Environment
 venv/
+.venv/
 ENV/
 env/
+
+# Environment variables
+.env
 
 # Python Cache
 __pycache__/
@@ -15,3 +19,6 @@ __pycache__/
 # OS Specific
 .DS_Store
 Thumbs.db
+
+# Local project notes
+PROJECT_STATE.md
